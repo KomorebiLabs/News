@@ -5,211 +5,256 @@ date: 2026-07-11
 lang: en
 ---
 
-> From 38 items, 9 important content pieces were selected
+> From 38 items, 11 important content pieces were selected
 
 ---
 
 1. [Apple Sues OpenAI Over Alleged Trade Secret Theft](#item-1) ⭐️ 9.0/10
-2. [GPT-5.6 Sol Ultra Claims Proof of Cycle Double Cover Conjecture](#item-2) ⭐️ 9.0/10
-3. [EU May Fine Meta $12 Billion Over Addictive Design](#item-3) ⭐️ 9.0/10
-4. [First Live Pig Gallbladder Surgery by Remote Humanoid Robot](#item-4) ⭐️ 9.0/10
-5. [SGLang v0.5.15 Boosts LLM Throughput with Spec V2 and Blackwell NVFP4](#item-5) ⭐️ 8.0/10
-6. [QuadRF Visualizes WiFi Signals and Detects Drones Through Walls](#item-6) ⭐️ 8.0/10
-7. [AR Glasses Require Cloud Processing, Invading Privacy Due to Chip Limits](#item-7) ⭐️ 8.0/10
-8. [OpenAI and Google Supply AI to Blacklisted Chinese Subsidiaries](#item-8) ⭐️ 8.0/10
-9. [China Imposes Temporary Ban on Helium Exports](#item-9) ⭐️ 8.0/10
+2. [OpenAI Claims GPT-5.6 Sol Ultra Proves Cycle Double Cover Conjecture](#item-2) ⭐️ 9.0/10
+3. [SK Hynix Raises Record $26.5 Billion in US ADR Listing](#item-3) ⭐️ 9.0/10
+4. [Researchers Perform First Live Animal Surgery with Humanoid Robot](#item-4) ⭐️ 9.0/10
+5. [SGLang v0.5.15 Optimizes GLM-5.2 on Blackwell with Spec V2](#item-5) ⭐️ 8.0/10
+6. [QuadRF Visualizes WiFi and Detects Drones Through Walls](#item-6) ⭐️ 8.0/10
+7. [LWN Updates Stance on Scrapers and Residential Proxies](#item-7) ⭐️ 8.0/10
+8. [Nilay Patel: AR Glasses Require Cloud Processing and Privacy Invasion](#item-8) ⭐️ 8.0/10
+9. [EU Investigates Meta for Addictive Design Under Digital Services Act](#item-9) ⭐️ 8.0/10
+10. [SK Hynix CEO Warns of Historic Memory Shortage by 2027](#item-10) ⭐️ 8.0/10
+11. [Six U-Boot Vulnerabilities Allow Malicious Code Execution During Boot](#item-11) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
 ## [Apple Sues OpenAI Over Alleged Trade Secret Theft](https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/) ⭐️ 9.0/10
 
-Apple has filed a lawsuit against OpenAI, accusing the company and former employees of stealing trade secrets and instructing new hires on how to conceal their departures. The complaint alleges that OpenAI used confidential Apple hardware information to approach suppliers and encouraged employees to email themselves proprietary data before leaving. This legal action highlights the intensifying conflict between traditional hardware giants and AI developers over intellectual property protection and corporate ethics. It raises significant concerns for businesses using OpenAI's services regarding data privacy and the potential risks associated with their supply chain and internal practices. The lawsuit specifically mentions former employee Tan, who allegedly instructed new hires to hide their move to OpenAI from Apple. Apple claims it discovered a pattern of recruits emailing confidential information to themselves prior to leaving, which OpenAI then utilized in its operations.
+Apple has filed a lawsuit against OpenAI, alleging that former employees stole trade secrets and were instructed by new hires to conceal their departures. The suit claims OpenAI used confidential Apple hardware information to approach suppliers and directed recruits to email themselves sensitive data before leaving. This lawsuit highlights the escalating legal and ethical tensions between major tech giants and AI developers regarding intellectual property protection. It raises significant concerns for businesses using OpenAI services about potential exposure of their own code and proprietary information. The complaint details specific allegations, including instructions to new hires to avoid scrutiny and the systematic emailing of confidential files. Industry observers compare this to the Waymo vs. Uber case, suggesting severe consequences for OpenAI's hardware ambitions and corporate reputation.
 
 hackernews · stock_toaster · Jul 10, 20:47 · [Discussion](https://news.ycombinator.com/item?id=48865019)
 
-**Background**: Trade secret theft involves the unauthorized acquisition of confidential business information that provides a competitive edge, such as proprietary algorithms or hardware designs. In the tech industry, disputes often arise when employees move between competitors, raising questions about non-compete agreements and data security protocols. High-profile lawsuits like this serve as precedents for how companies protect their intellectual assets against aggressive AI development strategies.
+**Background**: Trade secret theft involves the unauthorized acquisition of confidential business information that provides a competitive advantage. In the AI sector, disputes often center on whether models were trained on proprietary data without permission, leading to complex legal battles over intellectual property rights and corporate ethics.
 
-**Discussion**: Community sentiment is largely negative towards OpenAI, with users comparing the situation to the Waymo vs. Uber lawsuit and predicting severe consequences for OpenAI's hardware ambitions. Many commenters express distrust in OpenAI's data handling practices, suggesting that businesses should avoid using their models due to potential IP leakage and ethical concerns.
+**Discussion**: Community sentiment is largely critical of OpenAI, with users citing past controversies and expressing concern over data privacy and corporate ethics. Many commenters warn businesses against relying on OpenAI due to fears that their proprietary code and IP might be compromised.
 
-**Tags**: `#Legal`, `#Apple`, `#OpenAI`, `#Trade Secrets`, `#Corporate Ethics`
+**Tags**: `#AI`, `#Legal`, `#Apple`, `#OpenAI`, `#Trade Secrets`
 
 ---
 
 <a id="item-2"></a>
-## [GPT-5.6 Sol Ultra Claims Proof of Cycle Double Cover Conjecture](https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf) ⭐️ 9.0/10
+## [OpenAI Claims GPT-5.6 Sol Ultra Proves Cycle Double Cover Conjecture](https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf) ⭐️ 9.0/10
 
-OpenAI's GPT-5.6 Sol Ultra model has reportedly generated a proof for the Cycle Double Cover Conjecture, a long-standing open problem in graph theory. The release of the associated prompt and proof document has sparked intense discussion on Hacker News regarding the validity and nature of AI-generated mathematical proofs. This claim represents a potential paradigm shift in AI capabilities, suggesting that large language models may soon assist in or autonomously solve complex theoretical mathematics. It raises critical questions about the verification process of AI-generated science and the future role of human mathematicians in validating such results. The proof is described as extremely concise, leading some experts to suspect it exploits a clever trick previously missed by the community. Community members noted that the prompt explicitly instructed the model to reject vague optimism and focus on rigorous logic, highlighting the heavy reliance on prompt engineering for such tasks.
+On July 10, 2026, OpenAI released a preprint claiming that its GPT-5.6 Sol Ultra model generated a proof for the Cycle Double Cover Conjecture, a long-standing problem in graph theory. The announcement has sparked intense debate on platforms like Hacker News regarding the validity of AI-generated mathematical proofs. This claim represents a potential paradigm shift in AI capabilities, suggesting that large language models can now solve major open mathematical problems autonomously. It significantly impacts the broader ecosystem by raising questions about the future role of human mathematicians and the reliability of AI-assisted research. The conjecture, originally posed by W. T. Tutte and others, asserts that every finite bridgeless undirected graph has a cycle double cover. The proof provided by GPT-5.6 Sol Ultra is described as extremely concise, leading some experts to suspect it exploits a clever trick that previous researchers may have missed.
 
 hackernews · scrlk · Jul 10, 18:29 · [Discussion](https://news.ycombinator.com/item?id=48863490)
 
-**Background**: The Cycle Double Cover Conjecture, independently formulated by Szekeres (1973) and Seymour (1979), asserts that every bridgeless graph has a collection of cycles that together contain every edge exactly twice. It remains one of the most famous unsolved problems in graph theory. Recent advancements in AI have seen models tackle other mathematical challenges, such as the unit distance problem, but generating full proofs for open conjectures is a significant milestone if verified.
+**Background**: In graph theory, a cycle double cover is a collection of cycles in an undirected graph that together include each edge of the graph exactly twice. The Cycle Double Cover Conjecture remains one of the most famous unsolved problems in this field, with implications for graph embeddings and topological structures. Recent advancements in AI, such as AxiomProver, have shown promise in verifying proofs, but generating novel proofs for open conjectures is a significant leap.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Cycle_double_cover">Cycle double cover - Wikipedia</a></li>
-<li><a href="https://openai.com/index/previewing-gpt-5-6-sol/">Previewing GPT-5.6 Sol: a next-generation model | OpenAI</a></li>
-<li><a href="https://mathworld.wolfram.com/CycleDoubleCoverConjecture.html">Cycle Double Cover Conjecture -- from Wolfram MathWorld</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cycle_double_cover_conjecture">Cycle double cover conjecture</a></li>
+<li><a href="https://openai.com/index/previewing-gpt-5-6-sol/">Previewing GPT - 5 . 6 Sol : a next-generation model | OpenAI</a></li>
+<li><a href="https://www.datacamp.com/blog/gpt-5-6-sol-luna-terra">GPT - 5 . 6 Sol , Terra, and Luna: OpenAI's Next-Gen Model... | DataCamp</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Users expressed skepticism about the proof's conciseness and questioned whether it represents true 'theory-building' rather than just finding a counter-example or shortcut. There was also interest in the prompt engineering techniques used, with some noting the extensive guidance provided to the model to ensure rigorous output.
+**Discussion**: Community members expressed skepticism about the proof's novelty, noting that its extreme conciseness suggests it might rely on a trick overlooked by experts rather than a deep theoretical breakthrough. Others focused on the prompting strategy, observing that the model required explicit instructions to avoid vague optimism, while some debated whether AI can truly achieve autonomous theory-building.
 
-**Tags**: `#AI`, `#Mathematics`, `#LLM`, `#Research`, `#HackerNews`
+**Tags**: `#AI`, `#Mathematics`, `#Research`, `#GPT`, `#Proofs`
 
 ---
 
 <a id="item-3"></a>
-## [EU May Fine Meta $12 Billion Over Addictive Design](https://www.theverge.com/policy/963872/meta-eu-addictive-design-200b-fine-risk-digital-services-act-dsa) ⭐️ 9.0/10
+## [SK Hynix Raises Record $26.5 Billion in US ADR Listing](https://www.aljazeera.com/economy/2026/7/10/south-koreas-sk-hynix-raises-26-5bn-in-record-breaking-us-ipo) ⭐️ 9.0/10
 
-The European Commission has preliminarily found that Meta's Facebook and Instagram violate the Digital Services Act through addictive design features like infinite scroll and autoplay. If upheld, Meta faces a fine of up to $12 billion and must redesign these features to prioritize user well-being. This marks a significant regulatory shift where 'addictive design' is legally defined as a breach of platform responsibility under the DSA. It sets a precedent for holding tech giants accountable for the psychological impact of their algorithms and interface choices on European users. The investigation targets features such as infinite scroll, autoplay, push notifications, and highly personalized recommender systems that put users' brains on 'autopilot'. Meta is required to default these features off, implement effective screen time limits, and reduce engagement-driven ranking.
+On July 10, SK Hynix listed its American Depositary Receipts (ADRs) on Nasdaq, raising approximately $26.5 billion, which surpasses Alibaba's 2014 record for foreign companies. The stock opened at around $170, marking a 14% increase from the $149 offering price, driven by strong demand for its AI-related high-bandwidth memory (HBM) chips. This historic fundraising highlights the critical role of South Korean semiconductor manufacturers in the global AI infrastructure supply chain. It underscores the immense financial value and strategic importance of HBM technology, which is essential for powering advanced AI graphics processors from companies like NVIDIA and AMD. SK Hynix sold 177.9 million ADRs with an oversubscription rate exceeding seven times, reflecting intense investor interest. As the world's largest HBM manufacturer, the company's success is closely tied to the booming demand for memory solutions that support high-performance computing and AI model training.
 
-telegram · zaihuapd · Jul 10, 14:47
+telegram · zaihuapd · Jul 10, 16:02
 
-**Background**: The Digital Services Act (DSA) is a comprehensive EU law regulating online platforms to ensure user safety and transparency. It requires very large online platforms to assess and mitigate systemic risks, including those related to mental health and societal discourse. Previous enforcement has focused on disinformation and illegal content, but this case expands scrutiny to the fundamental mechanics of user engagement.
+**Background**: An American Depositary Receipt (ADR) is a negotiable security that represents shares of a non-U.S. company, allowing them to trade on U.S. financial markets. High Bandwidth Memory (HBM) is a specialized 3D-stacked memory interface designed to deliver exceptional data throughput, solving bandwidth bottlenecks for AI workloads. Unlike standard RAM, HBM connects directly to the processor via a wide bus, enabling faster data access crucial for training large language models.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-addictive-design-instagram-and-facebook-breach-digital-services-act">Commission preliminarily finds the addictive design of Instagram and ...</a></li>
-<li><a href="https://edition.cnn.com/2026/07/10/tech/meta-eu-addictive-design">Facebook and Instagram's 'addictive design' may violate European law ...</a></li>
-<li><a href="https://www.euronews.com/next/2026/07/10/instagram-and-facebook-hook-users-with-addictive-design-commission-finds">EU demands Facebook and Instagram dismantle 'addictive' design features</a></li>
+<li><a href="https://en.wikipedia.org/wiki/American_depositary_receipt">American depositary receipt - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/High_Bandwidth_Memory">High Bandwidth Memory - Wikipedia</a></li>
+<li><a href="https://www.twokq.com/post/what-is-hbm-high-bandwidth-memory/">What Is HBM and Why Every Modern AI Chip Depends on High ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Regulation`, `#Meta`, `#EU Policy`, `#Digital Services Act`, `#Tech Ethics`
+**Tags**: `#Semiconductors`, `#AI Infrastructure`, `#Finance`, `#IPO`, `#SK Hynix`
 
 ---
 
 <a id="item-4"></a>
-## [First Live Pig Gallbladder Surgery by Remote Humanoid Robot](https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/) ⭐️ 9.0/10
+## [Researchers Perform First Live Animal Surgery with Humanoid Robot](https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/) ⭐️ 9.0/10
 
-Researchers successfully performed the world's first live animal gallbladder removal surgery using a remotely controlled Unitree G1 humanoid robot, with results published in Nature. This marks the first time a general-purpose humanoid robot has been used for such a procedure. This breakthrough demonstrates that low-cost, general-purpose robots can perform complex surgical tasks, potentially democratizing access to advanced healthcare. The significant cost advantage over specialized systems like the da Vinci Surgical System suggests future deployment in resource-limited settings such as rural areas or battlefields. The Unitree G1 costs approximately $13,500 for the base model and up to $67,000 with dexterous hands, compared to millions for dedicated surgical robots. The study involved two minimally invasive cholecystectomies on live pigs, highlighting the robot's precision and the potential for remote operation via tactile internet technologies.
+Researchers successfully performed the world's first live animal gallbladder removal surgery using a remotely controlled Unitree G1 humanoid robot, with results published in Nature. This breakthrough demonstrates that low-cost, general-purpose humanoid robots can perform complex surgical tasks, potentially revolutionizing healthcare access in resource-limited settings like rural areas or battlefields. The Unitree G1 costs approximately $67,000 with dexterous hands, significantly cheaper than dedicated surgical systems like the da Vinci which can exceed $2 million, while achieving comparable minimally invasive results.
 
 telegram · zaihuapd · Jul 11, 02:29
 
-**Background**: Robotic-assisted surgery, led by systems like the da Vinci Surgical System, has become standard for minimally invasive procedures due to enhanced precision and control. However, these specialized systems are prohibitively expensive and locked into proprietary ecosystems, limiting their accessibility. Recent advances in general-purpose humanoid robotics and low-latency communication networks are beginning to challenge this monopoly by offering flexible, affordable alternatives capable of complex manipulation.
+**Background**: Robotic surgery has traditionally been dominated by expensive, specialized systems like the da Vinci Surgical System, which limits their deployment to well-funded urban hospitals. Previous autonomous robotic surgeries, such as those by the Smart Tissue Autonomous Robot (STAR), required highly controlled environments and specialized markers, whereas this new approach uses a general-purpose humanoid platform teleoperated by surgeons.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Da_Vinci_Surgical_System">da Vinci Surgical System - Wikipedia</a></li>
-<li><a href="https://www.unitree.com/g1/">Humanoid robot G1_Humanoid Robot Functions_Humanoid Robot Price | Unitree Robotics</a></li>
-<li><a href="https://mindscribes.com/tactile-internet-applications-for-remote-healthcare/">Tactile Internet Applications for Remote Healthcare</a></li>
+<li><a href="https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/">Humanoid robots controlled by surgeons did world-first operation on live pigs - Ars Technica</a></li>
+<li><a href="https://www.medequipdirectory.com/article/da-vinci-surgical-robot-cost-breakdown-2026/">How Much Does a da Vinci Surgical Robot Cost? Full Breakdown ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Robotics`, `#Medical Technology`, `#AI`, `#Healthcare Innovation`, `#Research`
+**Tags**: `#Robotics`, `#Medical Technology`, `#AI`, `#Healthcare Innovation`, `#Nature Publication`
 
 ---
 
 <a id="item-5"></a>
-## [SGLang v0.5.15 Boosts LLM Throughput with Spec V2 and Blackwell NVFP4](https://github.com/sgl-project/sglang/releases/tag/v0.5.15) ⭐️ 8.0/10
+## [SGLang v0.5.15 Optimizes GLM-5.2 on Blackwell with Spec V2](https://github.com/sgl-project/sglang/releases/tag/v0.5.15) ⭐️ 8.0/10
 
-SGLang v0.5.15 enables Speculative Decoding V2 by default to increase throughput and adds production-tuned GLM-5.2 NVFP4 support for NVIDIA Blackwell GPUs. The release also introduces IndexShare MTP to reduce draft-step costs and supports new models like Hunyuan 3 and Qwen3.6. This update significantly lowers inference latency and improves resource efficiency for large language models, particularly on next-generation hardware. By optimizing speculative decoding and quantization, it makes high-performance LLM serving more accessible and cost-effective for production environments. Key optimizations include zero-overhead scheduling in Spec V2, which boosts end-to-end tokens per second by 11%, and IndexShare MTP, which reduces draft-step costs by up to 1.9x. Additionally, native web search via Exa and breakable CUDA Graphs are now enabled by default.
+SGLang v0.5.15 has been released, featuring optimized production serving for GLM-5.2 NVFP4 on NVIDIA Blackwell GPUs, achieving over 500 tokens per second per user. This update introduces Spec V2 by default for zero-overhead scheduling and IndexShare MTP to significantly reduce draft-step costs. This release addresses critical performance bottlenecks in large language model serving by leveraging new hardware capabilities and advanced speculative decoding techniques. It sets a new benchmark for efficiency, particularly for developers deploying high-performance coding and reasoning models on NVIDIA's latest infrastructure. Key technical improvements include Spec V2 which drops D2H/H2D syncs for a +11% end-to-end throughput gain, and IndexShare MTP which lowers draft-step costs by up to 1.9x. The release also supports new models like Hunyuan 3 and Qwen3.6, and enables native web search via Exa.
 
 github · Fridge003 · Jul 10, 22:58
 
-**Background**: Speculative Decoding is a technique where a smaller 'draft' model predicts tokens to speed up the generation process of a larger target model. NVFP4 is a specialized 4-bit floating-point quantization format designed by NVIDIA to maximize performance on Blackwell GPUs while maintaining model accuracy. SGLang is an open-source LLM serving framework focused on high throughput and low latency.
+**Background**: SGLang is an open-source library designed to optimize the serving of Large Language Models (LLMs) by improving throughput and reducing latency through efficient memory management and kernel fusion. Speculative decoding is a technique where a smaller 'draft' model generates candidate tokens that a larger 'target' model verifies, speeding up generation. NVFP4 is a quantization format developed by NVIDIA that reduces memory bandwidth requirements while maintaining model accuracy on Blackwell GPUs.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://github.com/sgl-project/sglang/releases">Releases · sgl-project/ sglang</a></li>
-<li><a href="https://developer-qa.nvidia.com/blog/optimizing-llms-for-performance-and-accuracy-with-post-training-quantization/">Optimizing LLMs for Performance and Accuracy with Post-Training...</a></li>
-<li><a href="https://sgl-project.github.io/advanced_features/attention_backend.html">Attention Backend — SGLang</a></li>
+<li><a href="https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding">[AINews] GLM-5.2: the top Frontend Coding model in the world, IndexShare for Speculative Decoding</a></li>
+<li><a href="https://recipes.vllm.ai/zai-org/GLM-5.2">zai-org/GLM-5.2 | vLLM Recipes</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM Serving`, `#System Optimization`, `#Speculative Decoding`, `#Hardware Acceleration`, `#Open Source`
+**Tags**: `#LLM Serving`, `#Performance Optimization`, `#NVIDIA Blackwell`, `#Open Source AI`
 
 ---
 
 <a id="item-6"></a>
-## [QuadRF Visualizes WiFi Signals and Detects Drones Through Walls](https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/) ⭐️ 8.0/10
+## [QuadRF Visualizes WiFi and Detects Drones Through Walls](https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/) ⭐️ 8.0/10
 
-The open-source QuadRF project demonstrates the ability to visualize Wi-Fi signals and detect drones through walls using a 4x4 MIMO software-defined radio kit. This technology highlights the growing capability of RF sensing to penetrate obstacles, raising significant privacy concerns regarding unauthorized surveillance and security vulnerabilities in smart environments. QuadRF is an affordable, complete 4x4 MIMO development kit that allows users to customize the UI and improve calibration for better signal interpretation.
+The open-source QuadRF project demonstrates the ability to visualize Wi-Fi signals and detect drones through walls using a Raspberry Pi 5 and FPGA-based phased array. The creator is actively engaging with the community on Hacker News to share demos and improve the software. This technology highlights the growing accessibility of advanced radio frequency sensing, raising significant privacy concerns regarding unauthorized surveillance through physical barriers. It also democratizes complex RF visualization tools for hobbyists and security researchers. The system utilizes picosecond-level timing and advanced signal processing beamforming to achieve through-wall imaging capabilities. While effective for demonstration, the exact accuracy and specific calibration requirements remain areas of ongoing refinement.
 
 hackernews · speckx · Jul 10, 15:59 · [Discussion](https://news.ycombinator.com/item?id=48861717)
 
-**Background**: Radar systems use radio waves to determine the distance, direction, and velocity of objects, while Wi-Fi sensing leverages existing wireless signals to detect movement through physical barriers. Although Wi-Fi signals can travel through walls, their effectiveness varies depending on wall solidity and object density, often requiring multiple devices to mitigate interference.
+**Background**: Through-wall radar imaging and Wi-Fi sensing leverage changes in radio wave propagation caused by obstacles and moving objects to create visual representations of environments. Traditional methods often require expensive, specialized hardware, whereas modern approaches increasingly utilize commodity components like FPGAs and single-board computers to lower the barrier to entry for RF experimentation.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.crowdsupply.com/scale-rf/quadrf">QuadRF | Crowd Supply</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Radar">Radar - Wikipedia</a></li>
-<li><a href="https://www.technologyreview.com/2024/02/27/1088154/wifi-sensing-tracking-movements/">How Wi - Fi sensing became usable tech | MIT Technology Review</a></li>
+<li><a href="https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/">QuadRF can spot drones and see WiFi through my wall - Jeff Geerling</a></li>
+<li><a href="https://designthinkingblog.com/technology/quadrf-can-spot-drones-and-see-wifi-through-my-wall/">QuadRF Can Spot Drones And See WiFi Through My Wall</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The QuadRF creator actively engaged with the community, offering demo videos and noting ongoing UI improvements based on user feedback. Discussions also touched on potential applications for sound localization and concerns about hidden RF uplinks in consumer electronics.
+**Discussion**: The QuadRF creator actively participated in the discussion, providing demo videos and noting that the open-source nature allows users to customize the UI and calibration. Community members expressed interest in similar technology for audio localization and raised concerns about potential misuse for surveillance.
 
-**Tags**: `#RF Technology`, `#Open Source`, `#Security`, `#Hardware Hacking`, `#Signal Processing`
+**Tags**: `#RF Technology`, `#Open Source`, `#Security`, `#Hacker News`, `#Hardware`
 
 ---
 
 <a id="item-7"></a>
-## [AR Glasses Require Cloud Processing, Invading Privacy Due to Chip Limits](https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything) ⭐️ 8.0/10
+## [LWN Updates Stance on Scrapers and Residential Proxies](https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/) ⭐️ 8.0/10
 
-Nilay Patel argues that viable augmented reality glasses currently require continuous cloud-based video processing because existing chips lack the power efficiency to handle real-time tasks locally. He suggests that without this cloud dependency, AR devices would need to be as bulky as the Apple Vision Pro. This highlights a fundamental trade-off in AR development where achieving consumer-friendly form factors necessitates significant privacy invasions through constant data transmission. It raises critical ethical questions about whether society should accept these privacy costs for the sake of technological advancement. The core limitation is that no chip currently fits in glasses stems while being both powerful enough and power-efficient enough for real-time computer vision. Consequently, data must be sent to the cloud, creating a direct link between hardware constraints and user privacy risks.
+LWN has published an update regarding the escalating issue of web scraping, specifically noting that attacks now predominantly originate from residential and mobile proxy networks rather than traditional datacenter IPs. This shift includes traffic from both criminal botnets and semi-legitimate services that compensate app developers for routing traffic through users' devices. This development highlights the growing tension between AI data collection needs and the preservation of the open web, as residential proxies make it significantly harder for publishers to distinguish between legitimate human readers and automated scrapers. The reliance on these networks raises serious privacy and security concerns for everyday users whose devices may unknowingly become part of these proxy infrastructures. LWN rejected the use of Proof-of-Work tools like Anubis because they create unacceptable friction for genuine readers while remaining ineffective against large-scale scrapers who can distribute the computational load. The publication emphasizes the critical importance of web archiving initiatives, such as Common Crawl, to preserve content integrity against deletion or structural changes by site owners.
 
-rss · Simon Willison · Jul 10, 17:05
+hackernews · chmaynard · Jul 10, 19:38 · [Discussion](https://news.ycombinator.com/item?id=48864252)
 
-**Background**: Augmented reality glasses aim to overlay digital information onto the real world, requiring cameras to continuously capture visual data. Edge computing and on-device AI are often touted as solutions to reduce latency and protect privacy, but current hardware limitations in processing power and battery life make real-time local analysis difficult for compact devices.
+**Background**: Residential proxies route internet traffic through IP addresses assigned to actual home users, making them appear as legitimate visitors compared to datacenter proxies which are easily identified as bots. Web scraping involves automated software extracting data from websites, a practice increasingly used by AI companies to train large language models, often without explicit permission from content creators.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://coskip.com/blog/on-device-vs-cloud-ai-in-the-field-a-systems-architecture-playbook-for-latency-privacy-and-roi">On - Device vs . Cloud AI in the Field: A Systems... | CoSkip Blog</a></li>
-<li><a href="https://www.n-ix.com/edge-computer-vision/">Edge computer vision : use cases and challenges - N-iX</a></li>
+<li><a href="https://daily.dev/posts/an-update-on-the-scraper-situation-f9grknbuz">An update on the scraper situation - daily.dev</a></li>
+<li><a href="https://www.fbi.gov/investigate/cyber/alerts/2026/evading-residential-proxy-networks-protecting-your-devices-from-becoming-a-tool-for-criminals">Evading Residential Proxy Networks: Protecting Your Devices ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Augmented Reality`, `#Privacy`, `#Hardware Limitations`, `#Cloud Computing`, `#Tech Ethics`
+**Discussion**: The community discussion reveals strong skepticism toward bot mitigation tools like Anubis, with users arguing they harm the experience for legitimate readers more than they deter scrapers. Many participants advocate for strengthening web archiving efforts to ensure long-term accessibility of information, expressing concern that current anti-scraping measures might inadvertently consolidate power among major infrastructure providers like Cloudflare.
+
+**Tags**: `#Web Scraping`, `#AI Data`, `#Open Web`, `#Privacy`, `#Hacker News`
 
 ---
 
 <a id="item-8"></a>
-## [OpenAI and Google Supply AI to Blacklisted Chinese Subsidiaries](https://www.ft.com/content/5d6aafa1-5d47-4585-aa95-6ec06a6cd20f) ⭐️ 8.0/10
+## [Nilay Patel: AR Glasses Require Cloud Processing and Privacy Invasion](https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything) ⭐️ 8.0/10
 
-Reports confirm that OpenAI and Google provided advanced AI services to Singapore-based subsidiaries of Alibaba, Baidu, and Tencent, despite their parent companies being on the US Department of Defense's Section 1260H list. While these transactions are currently legal under existing regulations, they have sparked renewed calls in Washington for stricter export controls on frontier AI software. This situation highlights a significant loophole in US export control strategies, where restrictions on advanced chips do not automatically extend to AI software accessed via overseas entities. It underscores the growing tension between maintaining commercial access to global markets and preventing potential military-civil fusion advancements in China. OpenAI recently suspended API access for Alibaba-affiliated users after detecting suspected model distillation, a process where smaller models replicate the behavior of larger ones. In contrast, Anthropic has adopted a stricter policy by completely banning access for Chinese companies and their overseas entities.
+Nilay Patel argues that viable augmented reality glasses require continuous cloud-based video processing because current chips lack the power and efficiency to handle it locally. He suggests that achieving this functionality inevitably necessitates significant privacy invasions due to the need to transmit visual data to the cloud. This commentary highlights a fundamental hardware constraint that challenges the feasibility of consumer-grade AR glasses as a seamless, private technology. It forces a critical re-evaluation of the trade-offs between computational performance, battery life, and user privacy in the emerging spatial computing ecosystem. Patel notes that there is currently no chip small enough to fit in glasses stems that is both powerful enough and power-miserly enough for real-time processing. The only alternatives are relying on cloud connectivity or building devices as large and battery-dependent as Apple's Vision Pro.
 
-telegram · zaihuapd · Jul 10, 09:59
+rss · Simon Willison · Jul 10, 17:05
 
-**Background**: The Section 1260H list, mandated by the National Defense Authorization Act, identifies Chinese military companies linked to the People's Liberation Army. Model distillation allows organizations to train smaller, more efficient AI models based on the outputs of larger frontier models, potentially bypassing hardware restrictions. Current US export controls primarily target high-performance computing chips, leaving gaps in regulating software access through third-country subsidiaries.
+**Background**: Augmented reality (AR) glasses aim to overlay digital information onto the real world, requiring constant camera input and real-time image processing. Edge AI processes data locally on devices to reduce latency, but high-bandwidth video analysis often exceeds the capabilities of small, battery-powered hardware. Consequently, many AR solutions rely on hybrid architectures where heavy computation is offloaded to the cloud, raising concerns about data privacy and network dependency.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.war.gov/News/Releases/Release/Article/4023145/dod-releases-list-of-chinese-military-companies-in-accordance-with-section-1260/">DOD Releases List of Chinese Military... | U . S . Department of War</a></li>
-<li><a href="https://theplanettools.ai/glossary/model-distillation">What is Model Distillation ? Efficient AI Explained... | ThePlanetTools. ai</a></li>
-<li><a href="https://techresearchonline.com/news/chinese-firms-access-openai-google-ai-models/">Chinese Giants Access OpenAI and Google AI Models</a></li>
+<li><a href="https://www.spheron.network/blog/hybrid-cloud-edge-ai-inference-guide/">Cloud vs Edge AI Inference: 2026 Hybrid Decision Guide</a></li>
+<li><a href="https://spectrum.ieee.org/edge-ai">Edge AI: Navigating Hardware Constraints - IEEE Spectrum</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI Policy`, `#Geopolitics`, `#Export Controls`, `#Tech Industry`, `#Compliance`
+**Tags**: `#Augmented Reality`, `#Privacy`, `#Hardware Constraints`, `#Cloud Computing`, `#Tech Commentary`
 
 ---
 
 <a id="item-9"></a>
-## [China Imposes Temporary Ban on Helium Exports](https://wms.mofcom.gov.cn/zcfb/wmgl/art/2026/art_2a795a0d55df4cada91c9fbd2a2cc13a.html) ⭐️ 8.0/10
+## [EU Investigates Meta for Addictive Design Under Digital Services Act](https://www.theverge.com/policy/963872/meta-eu-addictive-design-200b-fine-risk-digital-services-act-dsa) ⭐️ 8.0/10
 
-On July 10, 2026, China's Ministry of Commerce and General Administration of Customs announced a temporary ban on helium exports under Announcement No. 29 of 2026. This measure applies to helium classified under customs code 2804290010 and takes effect immediately upon publication. This ban significantly disrupts global supply chains for a critical industrial gas, particularly affecting semiconductor manufacturing which relies heavily on helium for cooling and process purity. It highlights the strategic vulnerability of high-tech industries to geopolitical tensions and resource nationalism. The regulation is based on the Foreign Trade Law of the People's Republic of China and targets specific industrial-grade and ultra-high-purity helium. Given that China often re-exports helium sourced from Qatar and Russia, this move exacerbates existing global shortages driven by Middle East conflicts.
+The European Commission has preliminarily found that Meta's Facebook and Instagram violate the Digital Services Act through addictive design features like infinite scroll and autoplay. Meta faces a potential fine of up to $12 billion and must redesign these features to prioritize user well-being over engagement. This marks a significant enforcement action under the DSA, signaling a paradigm shift in how 'addictive design' is legally regulated in the tech industry. It sets a precedent for holding platforms accountable for psychological harms caused by interface choices, impacting global tech ethics and compliance standards. The investigation targets specific UI patterns such as infinite scroll, autoplay, and highly personalized recommender systems that keep users in a passive state. The EU criticized Meta's existing time-limit tools as ineffective and demanded defaults that disable these engagement-driving features.
 
-telegram · zaihuapd · Jul 10, 13:27
+telegram · zaihuapd · Jul 10, 14:47
 
-**Background**: Helium is a non-renewable strategic resource primarily extracted from natural gas deposits, with major reserves controlled by a few nations including the United States, Qatar, and Russia. In semiconductor fabrication, helium is indispensable for cooling superconducting magnets in lithography equipment, maintaining ultra-pure environments, and detecting leaks in vacuum chambers. Its scarcity makes it a critical bottleneck for AI infrastructure, quantum computing, and advanced electronics production.
+**Background**: The Digital Services Act (DSA) is a comprehensive EU regulation aimed at creating a safer digital space, fully applicable since February 2024. It imposes strict due diligence obligations on large online platforms to mitigate systemic risks, including those related to user mental health and democratic processes. Previous findings have also targeted TikTok for similar addictive design issues under the same framework.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://easternherald.com/2026/07/10/china-helium-export-ban-semiconductor-supply/">China Bans Helium Exports Amid Middle East Supply Crisis</a></li>
-<li><a href="https://www.xenon-gas.com/2026-helium-export-ban-industry-impacts-and-market-forecast/">2026 Helium Export Ban : Industry Impacts And Market Forecast...</a></li>
+<li><a href="https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-addictive-design-instagram-and-facebook-breach-digital-services-act">Commission preliminarily finds the addictive design of ...</a></li>
+<li><a href="https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-addictive-design-breach-digital-services-act">Commission preliminarily finds TikTok's addictive design in ...</a></li>
+<li><a href="https://dsa-observatory.eu/2026/03/09/how-have-platforms-addressed-addictive-design-under-dsa/">How Have Platforms Addressed Addictive Design Under DSA</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Supply Chain`, `#Trade Policy`, `#Industrial Gases`, `#Regulation`
+**Tags**: `#Regulation`, `#Tech Ethics`, `#EU DSA`, `#Meta`, `#Platform Design`
+
+---
+
+<a id="item-10"></a>
+## [SK Hynix CEO Warns of Historic Memory Shortage by 2027](https://www.reuters.com/world/asia-pacific/sk-hynix-ceo-sees-worst-ever-memory-supply-shortage-2027-says-demand-outstrip-2026-07-10/) ⭐️ 8.0/10
+
+SK Hynix CEO Kweon Oh-hyun warned that global memory supply will face its most severe shortage ever by 2027, with demand continuing to outstrip supply through 2030 despite aggressive expansion plans. This warning coincided with SK Hynix's debut on the Nasdaq, where its stock rose 13.3% to close at $168.85. This forecast highlights critical bottlenecks in the semiconductor supply chain driven by the exponential growth of AI and high-bandwidth memory (HBM) demands. It signals that major chipmakers are struggling to scale production fast enough to meet the needs of the AI era, potentially impacting tech hardware availability and pricing globally. SK Hynix is evaluating potential overseas fab locations in the US, Japan, and Southeast Asia, prioritizing regions with advantages in land, power, and labor costs. The company reported record operating profits of 47 trillion won ($31 billion) in 2025, with Q2 estimates rising further to 65.5 trillion won.
+
+telegram · zaihuapd · Jul 11, 00:45
+
+**Background**: High Bandwidth Memory (HBM) is a specialized type of DRAM that stacks memory chips vertically to provide higher performance and bandwidth, which is essential for training large AI models. As AI applications expand, the demand for HBM has surged, making it a focal point for semiconductor manufacturers like SK Hynix, Samsung, and Micron. The recent listing of SK Hynix on the Nasdaq reflects strong investor confidence in the company's role in the AI hardware ecosystem.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.cnbc.com/2026/07/10/sk-hynix-skhy-stock-nasdaq.html">SK Hynix rises 13% in Nasdaq debut. Chairman says ... - CNBC</a></li>
+<li><a href="https://en.wikipedia.org/wiki/High_Bandwidth_Memory">High Bandwidth Memory - Wikipedia</a></li>
+<li><a href="https://www.outlookbusiness.com/markets/sk-hynix-debuts-on-nasdaq-with-265-bn-listing-marking-milestone-in-ai-chip-growth">SK Hynix Debuts On Nasdaq With $26.5 Bn Listing, Marking ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#Semiconductors`, `#Supply Chain`, `#Memory Market`, `#SK Hynix`, `#Industry Forecast`
+
+---
+
+<a id="item-11"></a>
+## [Six U-Boot Vulnerabilities Allow Malicious Code Execution During Boot](https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/) ⭐️ 8.0/10
+
+Security firm Binarly disclosed six vulnerabilities in U-Boot's FIT signature verification mechanism, affecting versions dating back to 2013.07. These flaws allow attackers to bypass validation and execute arbitrary code or crash devices before the operating system loads. This is significant because it compromises the chain of trust at the earliest stage of boot, enabling stealthy firmware attacks and persistent rootkits. Systems with remote management capabilities like BMCs are particularly vulnerable to exploitation without physical access. The vulnerabilities were fixed by U-Boot maintainers, but patching requires hardware vendors to integrate them into firmware updates. Legacy devices that have stopped receiving support may never be patched, leaving them permanently exposed.
+
+telegram · zaihuapd · Jul 11, 08:32
+
+**Background**: U-Boot is a widely used bootloader that initializes hardware and loads the operating system. The FIT (Flattened Image Tree) format includes signature verification to ensure that the loaded images have not been tampered with, establishing a secure chain of trust from power-on to OS execution. Firmware rootkits operate at this low level to evade standard security software.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://cybersecuritynews.com/u-boot-fit-signature-verification/">Six U - Boot FIT Signature Verification Flaws Enable Code Execution...</a></li>
+<li><a href="https://docs.u-boot-project.org/en/latest/usage/fit/signature.html">U - Boot FIT Signature Verification — Das U - Boot unknown version...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#Firmware Security`, `#U-Boot`, `#Vulnerability Disclosure`, `#System Boot`
 
 ---

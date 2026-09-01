@@ -5,55 +5,59 @@ date: 2026-09-01
 lang: en
 ---
 
-> From 37 items, 2 important content pieces were selected
+> From 44 items, 4 important content pieces were selected
 
 ---
 
-1. [Google Removes MV2 Extensions from Chrome Web Store, Banning Ad Blockers](#item-1) ⭐️ 8.0/10
-2. [Sliding Window Attention Outperforms Linear Attention on Long-Context Reasoning](#item-2) ⭐️ 8.0/10
+1. [Claude Fable 5.1 and Claude Mythos 5.1](#item-1) ⭐️ 8.0/10
+2. [Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit](#item-2) ⭐️ 8.0/10
+3. [Python 3.15.0 candidate 2 is here!](#item-3) ⭐️ 8.0/10
+4. [Korea's Trillion-Dollar Sovereign AI Investment: Nvidia Wins, Hynix Loses](#item-4) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Google Removes MV2 Extensions from Chrome Web Store, Banning Ad Blockers](https://webiterate.dev/google-removed-extensions-ublock-origin-108/) ⭐️ 8.0/10
+## [Claude Fable 5.1 and Claude Mythos 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1) ⭐️ 8.0/10
 
-Google has removed all Manifest V2 extensions from the Chrome Web Store, including popular ad blockers like uBlock Origin, and is now requiring all extensions to use the newer Manifest V3 architecture. This policy shift significantly impacts web privacy and ad blocking, as MV3 restrictions limit the capabilities of extensions like uBlock Origin, potentially weakening users' ability to block ads and trackers. Manifest V3 eliminates the use of remotely hosted code and changes the background runtime to a more restricted 'sleep/wake' model, which limits how extensions can intercept and modify network requests in real time.
+Anthropic announces Claude Fable 5.1 and Claude Mythos 5.1 with improved writing style, reduced pricing, and enhanced reasoning capabilities, sparking detailed community discussion on Hacker News.
 
-hackernews · twapi · Aug 31, 21:10 · [Discussion](https://news.ycombinator.com/item?id=49514878)
+hackernews · denysvitali · Sep 1, 17:53 · [Discussion](https://news.ycombinator.com/item?id=49525378)
 
-**Background**: Browser extensions are small software programs that customize the browsing experience. Manifest V2 was the previous standard for Chrome extensions, allowing them to directly monitor and modify network traffic. Google introduced Manifest V3 in 2020, claiming it improves security and privacy, but critics argue it was designed to curb ad blockers.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://dev.to/notearthian/whats-the-difference-between-manifest-v2-and-v3-in-browser-extensions-3b10">What's the Difference Between Manifest V2 and V3 in browser extensions? - DEV Community</a></li>
-<li><a href="https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3">Extensions / Manifest V3 | Chrome for Developers</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community comments highlight concerns about ad blocking as a safety issue for less tech-savvy users, with many recommending Firefox as a better alternative and criticizing Google's unilateral control over the web.
-
-**Tags**: `#Chrome`, `#Extensions`, `#Ad Blocking`, `#Privacy`, `#Web Policy`
+**Tags**: `#AI/ML`, `#LLMs`, `#Anthropic`, `#Model Releases`, `#Large Language Models`
 
 ---
 
 <a id="item-2"></a>
-## [Sliding Window Attention Outperforms Linear Attention on Long-Context Reasoning](https://www.reddit.com/r/MachineLearning/comments/1w3j1vw/slidingwindow_attention_beats_linear_on/) ⭐️ 8.0/10
+## [Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit](https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/) ⭐️ 8.0/10
 
-A new arXiv preprint by Alexia Jolicoeur-Martineau et al. demonstrates that sliding window attention with sinks achieves 2 to 10 times higher performance than linear attention variants on long-context reasoning benchmarks like Needle-in-a-Haystack and BABILong. This finding challenges the linear attention trend and suggests the field may have been benchmarking against inadequate baselines, potentially shifting research priorities away from expensive post-training linear models toward simpler, more efficient alternatives. The paper argues that linear attention variants likely require extensive post-training or scratch training to match sliding window attention, while the latter needs no post-training, runs fast, and maintains low memory usage.
+Apple presents forensic evidence from a former OpenAI employee's MacBook in a trade secret lawsuit, raising important legal questions about AI models learning proprietary information and privacy implications of corporate device syncing.
 
-reddit · r/MachineLearning · /u/Justgototheeffinmoon · Aug 31, 16:35
+hackernews · colinprince · Sep 1, 20:19 · [Discussion](https://news.ycombinator.com/item?id=49527573)
 
-**Background**: Sliding window attention restricts each token's attention to a local window, reducing the quadratic complexity of standard attention. Linear attention approximates full attention with linear complexity, often requiring post-training to achieve competitive performance. Long-context reasoning benchmarks like BABILong evaluate how well models can reason across facts distributed over long sequences.
+**Tags**: `#AI`, `#Legal`, `#Trade Secrets`, `#Privacy`, `#Tech Law`
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.digitalocean.com/community/tutorials/sliding-window-attention-efficient-long-context-models">Sliding Window Attention: Efficient Long-Context Modeling | DigitalOcean</a></li>
-<li><a href="https://arxiv.org/abs/2406.10149">[2406.10149] BABILong : Testing the Limits of LLMs with Long ...</a></li>
+---
 
-</ul>
-</details>
+<a id="item-3"></a>
+## [Python 3.15.0 candidate 2 is here!](https://simonwillison.net/2026/Sep/1/python-315-rc-2/) ⭐️ 8.0/10
 
-**Tags**: `#machine learning`, `#attention mechanisms`, `#long-context reasoning`, `#LLMs`, `#research`
+Python 3.15.0 candidate 2 has been announced as the final release candidate before the October release, with the release manager urging third-party maintainers to prepare compatible wheels on PyPI.
+
+rss · Simon Willison · Sep 1, 14:59
+
+**Tags**: `#Python`, `#Release Announcement`, `#Software Development`, `#Language Ecosystem`
+
+---
+
+<a id="item-4"></a>
+## [Korea's Trillion-Dollar Sovereign AI Investment: Nvidia Wins, Hynix Loses](https://newsletter.semianalysis.com/p/koreas-trillion-dollar-sovereign) ⭐️ 8.0/10
+
+Korea is launching a trillion-dollar sovereign AI investment initiative, which is analyzed as heavily benefiting Nvidia while creating significant challenges for memory chipmakers Hynix and Samsung. The initiative also appears to eliminate the best non-Chinese open source AI model in a national AI tournament framework. This development is significant because it reshapes the AI infrastructure supply chain, favoring Nvidia's GPU-dominant architecture over Korean memory chipmakers. It also has broader implications for open source AI dynamics and the geopolitical competition between US and Chinese AI ecosystems. The investment creates a structural advantage for Nvidia's hardware ecosystem while putting pressure on Hynix and Samsung's memory business. The elimination of the top non-Chinese open source model in Korea's national AI tournament highlights the tension between sovereign AI ambitions and open source collaboration.
+
+rss · Semianalysis · Sep 1, 20:14
+
+**Background**: Sovereign AI refers to a nation's effort to build independent AI capabilities, including infrastructure, models, and talent, to reduce dependence on foreign technology. Korea has been investing heavily in AI infrastructure to compete globally, but its semiconductor strategy has historically centered on memory chips made by companies like Hynix and Samsung. Nvidia's dominance in AI training GPUs has made it a central player in any large-scale AI infrastructure buildout, often at the expense of alternative hardware approaches.
+
+**Tags**: `#AI Infrastructure`, `#Semiconductors`, `#Geopolitics`, `#Sovereign AI`, `#Nvidia`
 
 ---

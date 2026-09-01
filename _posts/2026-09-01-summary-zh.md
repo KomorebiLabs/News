@@ -5,55 +5,59 @@ date: 2026-09-01
 lang: zh
 ---
 
-> 从 37 条内容中筛选出 2 条重要资讯。
+> 从 44 条内容中筛选出 4 条重要资讯。
 
 ---
 
-1. [Chrome 应用商店下架 MV2 扩展，广告拦截器遭禁](#item-1) ⭐️ 8.0/10
-2. [滑动窗口注意力在长上下文推理中优于线性注意力](#item-2) ⭐️ 8.0/10
+1. [Claude Fable 5.1 and Claude Mythos 5.1](#item-1) ⭐️ 8.0/10
+2. [Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit](#item-2) ⭐️ 8.0/10
+3. [Python 3.15.0 candidate 2 is here!](#item-3) ⭐️ 8.0/10
+4. [韩国万亿主权 AI 投资：英伟达受益，海力士承压](#item-4) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Chrome 应用商店下架 MV2 扩展，广告拦截器遭禁](https://webiterate.dev/google-removed-extensions-ublock-origin-108/) ⭐️ 8.0/10
+## [Claude Fable 5.1 and Claude Mythos 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1) ⭐️ 8.0/10
 
-谷歌已从 Chrome 应用商店移除所有 Manifest V2 扩展，包括流行的广告拦截器 uBlock Origin，并现在要求所有扩展使用较新的 Manifest V3 架构。 这一政策转变对网络隐私和广告拦截产生重大影响，因为 MV3 限制削弱了 uBlock Origin 等扩展的功能，可能降低用户屏蔽广告和跟踪器的能力。 Manifest V3 消除了远程托管代码的使用，并将后台运行时改为更受限的'睡眠/唤醒'模型，这限制了扩展实时拦截和修改网络请求的能力。
+Anthropic announces Claude Fable 5.1 and Claude Mythos 5.1 with improved writing style, reduced pricing, and enhanced reasoning capabilities, sparking detailed community discussion on Hacker News.
 
-hackernews · twapi · 8月31日 21:10 · [社区讨论](https://news.ycombinator.com/item?id=49514878)
+hackernews · denysvitali · 9月1日 17:53 · [社区讨论](https://news.ycombinator.com/item?id=49525378)
 
-**背景**: 浏览器扩展是定制浏览体验的小型软件程序。Manifest V2 是 Chrome 扩展的旧标准，允许它们直接监控和修改网络流量。谷歌在 2020 年推出了 Manifest V3，声称能提升安全性和隐私，但批评者认为这是为了限制广告拦截器。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://dev.to/notearthian/whats-the-difference-between-manifest-v2-and-v3-in-browser-extensions-3b10">What's the Difference Between Manifest V2 and V3 in browser extensions? - DEV Community</a></li>
-<li><a href="https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3">Extensions / Manifest V3 | Chrome for Developers</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区评论突出了对广告拦截作为技术不熟练用户安全问题的担忧，许多人推荐 Firefox 作为更好的替代方案，并批评谷歌对网络的单方面控制。
-
-**标签**: `#Chrome`, `#Extensions`, `#Ad Blocking`, `#Privacy`, `#Web Policy`
+**标签**: `#AI/ML`, `#LLMs`, `#Anthropic`, `#Model Releases`, `#Large Language Models`
 
 ---
 
 <a id="item-2"></a>
-## [滑动窗口注意力在长上下文推理中优于线性注意力](https://www.reddit.com/r/MachineLearning/comments/1w3j1vw/slidingwindow_attention_beats_linear_on/) ⭐️ 8.0/10
+## [Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit](https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/) ⭐️ 8.0/10
 
-Alexia Jolicoeur-Martineau 等人的新 arXiv 预印本表明，带有 sink 的滑动窗口注意力在 Needle-in-a-Haystack 和 BABILong 等长上下文推理基准测试中比线性注意力变体高出 2 到 10 倍的性能。 这一发现挑战了线性注意力趋势，表明该领域可能一直在使用不充分的基线进行基准测试，可能将研究重点从昂贵的后训练线性模型转向更简单、更高效的替代方案。 论文指出，线性注意力变体可能需要大量后训练或从头训练才能匹配滑动窗口注意力，而后者无需后训练、运行快速且保持低内存使用。
+Apple presents forensic evidence from a former OpenAI employee's MacBook in a trade secret lawsuit, raising important legal questions about AI models learning proprietary information and privacy implications of corporate device syncing.
 
-reddit · r/MachineLearning · /u/Justgototheeffinmoon · 8月31日 16:35
+hackernews · colinprince · 9月1日 20:19 · [社区讨论](https://news.ycombinator.com/item?id=49527573)
 
-**背景**: 滑动窗口注意力将每个 token 的注意力限制在局部窗口内，降低了标准注意力的二次复杂度。线性注意力用线性复杂度近似完整注意力，通常需要后训练才能达到竞争性性能。BABILong 等长上下文推理基准测试评估模型跨长序列分布事实进行推理的能力。
+**标签**: `#AI`, `#Legal`, `#Trade Secrets`, `#Privacy`, `#Tech Law`
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.digitalocean.com/community/tutorials/sliding-window-attention-efficient-long-context-models">Sliding Window Attention: Efficient Long-Context Modeling | DigitalOcean</a></li>
-<li><a href="https://arxiv.org/abs/2406.10149">[2406.10149] BABILong : Testing the Limits of LLMs with Long ...</a></li>
+---
 
-</ul>
-</details>
+<a id="item-3"></a>
+## [Python 3.15.0 candidate 2 is here!](https://simonwillison.net/2026/Sep/1/python-315-rc-2/) ⭐️ 8.0/10
 
-**标签**: `#machine learning`, `#attention mechanisms`, `#long-context reasoning`, `#LLMs`, `#research`
+Python 3.15.0 candidate 2 has been announced as the final release candidate before the October release, with the release manager urging third-party maintainers to prepare compatible wheels on PyPI.
+
+rss · Simon Willison · 9月1日 14:59
+
+**标签**: `#Python`, `#Release Announcement`, `#Software Development`, `#Language Ecosystem`
+
+---
+
+<a id="item-4"></a>
+## [韩国万亿主权 AI 投资：英伟达受益，海力士承压](https://newsletter.semianalysis.com/p/koreas-trillion-dollar-sovereign) ⭐️ 8.0/10
+
+韩国正在启动一项万亿级主权 AI 投资计划，分析认为该计划将大幅利好英伟达，同时给内存芯片制造商海力士和三星带来重大挑战。该计划似乎还在国家 AI 锦标赛框架下淘汰了最佳非中国开源 AI 模型。 这一发展意义重大，因为它正在重塑 AI 基础设施供应链，使英伟达的 GPU 主导架构优于韩国内存芯片制造商。它还对开源 AI 格局以及美国和中国 AI 生态之间的地缘政治竞争产生更广泛的影响。 这项投资为英伟达的硬件生态创造了结构性优势，同时给海力士和三星的内存业务带来压力。韩国国家 AI 锦标赛中顶级非中国开源模型的被淘汰，凸显了主权 AI 雄心与开源协作之间的紧张关系。
+
+rss · Semianalysis · 9月1日 20:14
+
+**背景**: 主权 AI 是指一个国家建设独立 AI 能力的努力，包括基础设施、模型和人才，以减少对外国技术的依赖。韩国一直在大力投资 AI 基础设施以参与全球竞争，但其半导体战略历来以海力士和三星等公司的内存芯片为中心。英伟达在 AI 训练 GPU 领域的主导地位使其成为任何大规模 AI 基础设施建设中的核心参与者，往往以牺牲其他硬件方案为代价。
+
+**标签**: `#AI Infrastructure`, `#Semiconductors`, `#Geopolitics`, `#Sovereign AI`, `#Nvidia`
 
 ---

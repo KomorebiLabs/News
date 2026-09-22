@@ -5,21 +5,21 @@ date: 2026-09-22
 lang: zh
 ---
 
-> 从 37 条内容中筛选出 1 条重要资讯。
+> 从 39 条内容中筛选出 1 条重要资讯。
 
 ---
 
-1. [NASA’s Mars Sample Return mission is dead](#item-1) ⭐️ 8.0/10
+1. [vllm-project/vllm released v0.30.0](#item-1) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [NASA’s Mars Sample Return mission is dead](https://www.science.org/content/article/nasa-s-mars-sample-return-mission-dead) ⭐️ 8.0/10
+## [vllm-project/vllm released v0.30.0](https://github.com/vllm-project/vllm/releases/tag/v0.30.0) ⭐️ 8.0/10
 
-NASA's Mars Sample Return mission has been cancelled, sparking discussion about cost overruns, the role of Starship, and competing international efforts like China's Tianwen-3.
+vLLM v0.30.0 is a major release featuring 762 commits from 315 contributors, introducing fast-start weight caching, FP4/multi-node TP support, and new model support for DeepSeek-V4.1-Flash, GLM-5.3-Flash, and others.
 
-hackernews · Muhammad523 · 9月21日 19:14 · [社区讨论](https://news.ycombinator.com/item?id=49791939)
+github · khluu · 9月22日 05:20
 
-**标签**: `#space exploration`, `#NASA`, `#Mars`, `#sample return`, `#Starship`
+**标签**: `#vLLM`, `#LLM inference`, `#DeepSeek`, `#GPU optimization`, `#open source`
 
 ---
